@@ -1,0 +1,21 @@
+diff --git a/hash1.c b/hash.c
+index ba11a43..dfe232d 100644
+--- a/hash1.c
++++ b/hash.c
+@@ -15,6 +15,9 @@ inline void
+ hash_set(hash_t *self, char *key, void *val) {
+   int ret;
+   khiter_t k = kh_put(ptr, self, key, &ret);
++  if (!ret) {
++    free(key);
++  }
+   kh_value(self, k) = val;
+ }
+ 
+@@ -188,4 +191,4 @@ main(){
+   return 0;
+ }
+ 
+-#endif
+\ No newline at end of file
++#endif
