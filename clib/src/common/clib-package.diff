@@ -1,0 +1,55 @@
+diff --git a/clib-package1.c b/clib-package.c
+index 268538e..00daea1 100644
+--- a/clib-package1.c
++++ b/clib-package.c
+@@ -664,6 +664,11 @@ clib_package_new_from_slug_with_package_name(const char *slug, int verbose,
+       json = res->data;
+       _debug("status: %d", res->status);
+       if (!res || !res->ok) {
++        if (res) {
++          http_get_free(res);
++          json = NULL;
++          res = NULL;
++        }
+         goto download;
+       }
+       log = "fetch";
+@@ -748,7 +753,6 @@ clib_package_new_from_slug_with_package_name(const char *slug, int verbose,
+ #ifdef HAVE_PTHREADS
+   pthread_mutex_unlock(&lock.mutex);
+ #endif
+-
+   if (res) {
+     http_get_free(res);
+     json = NULL;
+@@ -798,7 +802,6 @@ clib_package_t *clib_package_new_from_slug(const char *slug, int verbose) {
+       package->filename = (char *)name;
+     }
+   } while (NULL != manifest_names[++i] && NULL == package);
+-
+   return package;
+ }
+ 
+@@ -996,12 +999,9 @@ cleanup:
+ #ifdef HAVE_PTHREADS
+ static void *fetch_package_file_thread(void *arg) {
+   fetch_package_file_thread_data_t *data = arg;
+-  int *status = malloc(sizeof(int));
+-  int rc =
+-      fetch_package_file_work(data->pkg, data->dir, data->file, data->verbose);
+-  *status = rc;
++  int rc = fetch_package_file_work(data->pkg, data->dir, data->file, data->verbose);
+   (void)data->pkg->refs--;
+-  pthread_exit((void *)status);
++  pthread_exit((void *)(&rc));
+   return (void *)rc;
+ }
+ #endif
+@@ -1697,3 +1697,7 @@ void clib_package_cleanup() {
+     visited_packages = 0;
+   }
+ }
++
++void cleanup_curl_share() {
++  curl_share_cleanup(clib_package_curl_share);
++}
