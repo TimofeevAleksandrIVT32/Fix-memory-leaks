@@ -1,0 +1,12 @@
+diff --git a/package-new-from-slug1.c b/package-new-from-slug.c
+index cd12455..f44fce2 100644
+--- a/package-new-from-slug1.c
++++ b/package-new-from-slug.c
+@@ -69,6 +69,6 @@ main() {
+       clib_package_free(pkg);
+     }
+   }
+-
++  cleanup_curl_share();
+   return assert_failures();
+ }
