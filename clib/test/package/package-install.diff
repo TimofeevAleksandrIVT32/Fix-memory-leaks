@@ -1,0 +1,12 @@
+diff --git a/package-install1.c b/package-install.c
+index e65673b..96af0b6 100644
+--- a/package-install1.c
++++ b/package-install.c
+@@ -154,6 +154,6 @@ main() {
+ 
+   curl_global_cleanup();
+   clib_package_cleanup();
+-
++  cleanup_curl_share();
+   return assert_failures();
+ }
