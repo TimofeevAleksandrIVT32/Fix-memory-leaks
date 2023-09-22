@@ -1,27 +1,27 @@
-Двоичные файлы clib1/deps/asprintf/asprintf.o и clib/deps/asprintf/asprintf.o различаются
-Двоичные файлы clib1/deps/case/case.o и clib/deps/case/case.o различаются
-Двоичные файлы clib1/deps/commander/commander.o и clib/deps/commander/commander.o различаются
-Двоичные файлы clib1/deps/console-colors/console-colors.o и clib/deps/console-colors/console-colors.o различаются
-Двоичные файлы clib1/deps/copy/copy.o и clib/deps/copy/copy.o различаются
-Двоичные файлы clib1/deps/debug/debug.o и clib/deps/debug/debug.o различаются
-Двоичные файлы clib1/deps/fs/fs.o и clib/deps/fs/fs.o различаются
-Двоичные файлы clib1/deps/gumbo-get-element-by-id/get-element-by-id.o и clib/deps/gumbo-get-element-by-id/get-element-by-id.o различаются
-Двоичные файлы clib1/deps/gumbo-get-elements-by-tag-name/get-elements-by-tag-name.o и clib/deps/gumbo-get-elements-by-tag-name/get-elements-by-tag-name.o различаются
-Двоичные файлы clib1/deps/gumbo-parser/attribute.o и clib/deps/gumbo-parser/attribute.o различаются
-Двоичные файлы clib1/deps/gumbo-parser/char_ref.o и clib/deps/gumbo-parser/char_ref.o различаются
-Двоичные файлы clib1/deps/gumbo-parser/error.o и clib/deps/gumbo-parser/error.o различаются
-Двоичные файлы clib1/deps/gumbo-parser/parser.o и clib/deps/gumbo-parser/parser.o различаются
-Двоичные файлы clib1/deps/gumbo-parser/string_buffer.o и clib/deps/gumbo-parser/string_buffer.o различаются
-Двоичные файлы clib1/deps/gumbo-parser/string_piece.o и clib/deps/gumbo-parser/string_piece.o различаются
-Двоичные файлы clib1/deps/gumbo-parser/tag.o и clib/deps/gumbo-parser/tag.o различаются
-Двоичные файлы clib1/deps/gumbo-parser/tokenizer.o и clib/deps/gumbo-parser/tokenizer.o различаются
-Двоичные файлы clib1/deps/gumbo-parser/utf8.o и clib/deps/gumbo-parser/utf8.o различаются
-Двоичные файлы clib1/deps/gumbo-parser/util.o и clib/deps/gumbo-parser/util.o различаются
-Двоичные файлы clib1/deps/gumbo-parser/vector.o и clib/deps/gumbo-parser/vector.o различаются
-Двоичные файлы clib1/deps/gumbo-text-content/gumbo-text-content.o и clib/deps/gumbo-text-content/gumbo-text-content.o различаются
-diff -ruN clib1/deps/hash/hash.c clib/deps/hash/hash.c
---- clib1/deps/hash/hash.c	2020-09-08 02:51:24.000000000 +0300
-+++ clib/deps/hash/hash.c	2023-09-22 04:28:32.923887830 +0300
+Двоичные файлы clib/deps/asprintf/asprintf.o и clib_fix/deps/asprintf/asprintf.o различаются
+Двоичные файлы clib/deps/case/case.o и clib_fix/deps/case/case.o различаются
+Двоичные файлы clib/deps/commander/commander.o и clib_fix/deps/commander/commander.o различаются
+Двоичные файлы clib/deps/console-colors/console-colors.o и clib_fix/deps/console-colors/console-colors.o различаются
+Двоичные файлы clib/deps/copy/copy.o и clib_fix/deps/copy/copy.o различаются
+Двоичные файлы clib/deps/debug/debug.o и clib_fix/deps/debug/debug.o различаются
+Двоичные файлы clib/deps/fs/fs.o и clib_fix/deps/fs/fs.o различаются
+Двоичные файлы clib/deps/gumbo-get-element-by-id/get-element-by-id.o и clib_fix/deps/gumbo-get-element-by-id/get-element-by-id.o различаются
+Двоичные файлы clib/deps/gumbo-get-elements-by-tag-name/get-elements-by-tag-name.o и clib_fix/deps/gumbo-get-elements-by-tag-name/get-elements-by-tag-name.o различаются
+Двоичные файлы clib/deps/gumbo-parser/attribute.o и clib_fix/deps/gumbo-parser/attribute.o различаются
+Двоичные файлы clib/deps/gumbo-parser/char_ref.o и clib_fix/deps/gumbo-parser/char_ref.o различаются
+Двоичные файлы clib/deps/gumbo-parser/error.o и clib_fix/deps/gumbo-parser/error.o различаются
+Двоичные файлы clib/deps/gumbo-parser/parser.o и clib_fix/deps/gumbo-parser/parser.o различаются
+Двоичные файлы clib/deps/gumbo-parser/string_buffer.o и clib_fix/deps/gumbo-parser/string_buffer.o различаются
+Двоичные файлы clib/deps/gumbo-parser/string_piece.o и clib_fix/deps/gumbo-parser/string_piece.o различаются
+Двоичные файлы clib/deps/gumbo-parser/tag.o и clib_fix/deps/gumbo-parser/tag.o различаются
+Двоичные файлы clib/deps/gumbo-parser/tokenizer.o и clib_fix/deps/gumbo-parser/tokenizer.o различаются
+Двоичные файлы clib/deps/gumbo-parser/utf8.o и clib_fix/deps/gumbo-parser/utf8.o различаются
+Двоичные файлы clib/deps/gumbo-parser/util.o и clib_fix/deps/gumbo-parser/util.o различаются
+Двоичные файлы clib/deps/gumbo-parser/vector.o и clib_fix/deps/gumbo-parser/vector.o различаются
+Двоичные файлы clib/deps/gumbo-text-content/gumbo-text-content.o и clib_fix/deps/gumbo-text-content/gumbo-text-content.o различаются
+diff -ruN clib/deps/hash/hash.c clib_fix/deps/hash/hash.c
+--- clib/deps/hash/hash.c	2020-09-08 02:51:24.000000000 +0300
++++ clib_fix/deps/hash/hash.c	2023-09-22 04:28:32.923887830 +0300
 @@ -15,6 +15,9 @@
  hash_set(hash_t *self, char *key, void *val) {
    int ret;
@@ -39,34 +39,34 @@ diff -ruN clib1/deps/hash/hash.c clib/deps/hash/hash.c
 -#endif
 \ В конце файла нет новой строки
 +#endif
-Двоичные файлы clib1/deps/hash/hash.o и clib/deps/hash/hash.o различаются
-Двоичные файлы clib1/deps/http-get/http-get.o и clib/deps/http-get/http-get.o различаются
-Двоичные файлы clib1/deps/list/list_iterator.o и clib/deps/list/list_iterator.o различаются
-Двоичные файлы clib1/deps/list/list_node.o и clib/deps/list/list_node.o различаются
-Двоичные файлы clib1/deps/list/list.o и clib/deps/list/list.o различаются
-Двоичные файлы clib1/deps/mkdirp/mkdirp.o и clib/deps/mkdirp/mkdirp.o различаются
-Двоичные файлы clib1/deps/occurrences/occurrences.o и clib/deps/occurrences/occurrences.o различаются
-Двоичные файлы clib1/deps/parse-repo/parse-repo.o и clib/deps/parse-repo/parse-repo.o различаются
-Двоичные файлы clib1/deps/parson/parson.o и clib/deps/parson/parson.o различаются
-Двоичные файлы clib1/deps/path-join/path-join.o и clib/deps/path-join/path-join.o различаются
-Двоичные файлы clib1/deps/path-normalize/path-normalize.o и clib/deps/path-normalize/path-normalize.o различаются
-Двоичные файлы clib1/deps/rimraf/rimraf.o и clib/deps/rimraf/rimraf.o различаются
-Двоичные файлы clib1/deps/str-concat/str-concat.o и clib/deps/str-concat/str-concat.o различаются
-Двоичные файлы clib1/deps/strdup/strdup.o и clib/deps/strdup/strdup.o различаются
-Двоичные файлы clib1/deps/str-ends-with/str-ends-with.o и clib/deps/str-ends-with/str-ends-with.o различаются
-Двоичные файлы clib1/deps/str-flatten/str-flatten.o и clib/deps/str-flatten/str-flatten.o различаются
-Двоичные файлы clib1/deps/str-replace/str-replace.o и clib/deps/str-replace/str-replace.o различаются
-Двоичные файлы clib1/deps/str-starts-with/str-starts-with.o и clib/deps/str-starts-with/str-starts-with.o различаются
-Двоичные файлы clib1/deps/substr/substr.o и clib/deps/substr/substr.o различаются
-Двоичные файлы clib1/deps/tempdir/tempdir.o и clib/deps/tempdir/tempdir.o различаются
-Двоичные файлы clib1/deps/trim/trim.o и clib/deps/trim/trim.o различаются
-Двоичные файлы clib1/deps/which/which.o и clib/deps/which/which.o различаются
-Двоичные файлы clib1/deps/wiki-registry/wiki-registry.o и clib/deps/wiki-registry/wiki-registry.o различаются
-Двоичные файлы clib1/deps/wildcardcmp/wildcardcmp.o и clib/deps/wildcardcmp/wildcardcmp.o различаются
-Двоичные файлы clib1/src/common/clib-cache.o и clib/src/common/clib-cache.o различаются
-diff -ruN clib1/src/common/clib-package.c clib/src/common/clib-package.c
---- clib1/src/common/clib-package.c	2020-09-08 02:51:24.000000000 +0300
-+++ clib/src/common/clib-package.c	2023-09-21 03:54:53.783264432 +0300
+Двоичные файлы clib/deps/hash/hash.o и clib_fix/deps/hash/hash.o различаются
+Двоичные файлы clib/deps/http-get/http-get.o и clib_fix/deps/http-get/http-get.o различаются
+Двоичные файлы clib/deps/list/list_iterator.o и clib_fix/deps/list/list_iterator.o различаются
+Двоичные файлы clib/deps/list/list_node.o и clib_fix/deps/list/list_node.o различаются
+Двоичные файлы clib/deps/list/list.o и clib_fix/deps/list/list.o различаются
+Двоичные файлы clib/deps/mkdirp/mkdirp.o и clib_fix/deps/mkdirp/mkdirp.o различаются
+Двоичные файлы clib/deps/occurrences/occurrences.o и clib_fix/deps/occurrences/occurrences.o различаются
+Двоичные файлы clib/deps/parse-repo/parse-repo.o и clib_fix/deps/parse-repo/parse-repo.o различаются
+Двоичные файлы clib/deps/parson/parson.o и clib_fix/deps/parson/parson.o различаются
+Двоичные файлы clib/deps/path-join/path-join.o и clib_fix/deps/path-join/path-join.o различаются
+Двоичные файлы clib/deps/path-normalize/path-normalize.o и clib_fix/deps/path-normalize/path-normalize.o различаются
+Двоичные файлы clib/deps/rimraf/rimraf.o и clib_fix/deps/rimraf/rimraf.o различаются
+Двоичные файлы clib/deps/str-concat/str-concat.o и clib_fix/deps/str-concat/str-concat.o различаются
+Двоичные файлы clib/deps/strdup/strdup.o и clib_fix/deps/strdup/strdup.o различаются
+Двоичные файлы clib/deps/str-ends-with/str-ends-with.o и clib_fix/deps/str-ends-with/str-ends-with.o различаются
+Двоичные файлы clib/deps/str-flatten/str-flatten.o и clib_fix/deps/str-flatten/str-flatten.o различаются
+Двоичные файлы clib/deps/str-replace/str-replace.o и clib_fix/deps/str-replace/str-replace.o различаются
+Двоичные файлы clib/deps/str-starts-with/str-starts-with.o и clib_fix/deps/str-starts-with/str-starts-with.o различаются
+Двоичные файлы clib/deps/substr/substr.o и clib_fix/deps/substr/substr.o различаются
+Двоичные файлы clib/deps/tempdir/tempdir.o и clib_fix/deps/tempdir/tempdir.o различаются
+Двоичные файлы clib/deps/trim/trim.o и clib_fix/deps/trim/trim.o различаются
+Двоичные файлы clib/deps/which/which.o и clib_fix/deps/which/which.o различаются
+Двоичные файлы clib/deps/wiki-registry/wiki-registry.o и clib_fix/deps/wiki-registry/wiki-registry.o различаются
+Двоичные файлы clib/deps/wildcardcmp/wildcardcmp.o и clib_fix/deps/wildcardcmp/wildcardcmp.o различаются
+Двоичные файлы clib/src/common/clib-cache.o и clib_fix/src/common/clib-cache.o различаются
+diff -ruN clib/src/common/clib-package.c clib_fix/src/common/clib-package.c
+--- clib/src/common/clib-package.c	2020-09-08 02:51:24.000000000 +0300
++++ clib_fix/src/common/clib-package.c	2023-09-21 03:54:53.783264432 +0300
 @@ -664,6 +664,11 @@
        json = res->data;
        _debug("status: %d", res->status);
@@ -118,12 +118,12 @@ diff -ruN clib1/src/common/clib-package.c clib/src/common/clib-package.c
 +void cleanup_curl_share() {
 +  curl_share_cleanup(clib_package_curl_share);
 +}
-Двоичные файлы clib1/src/common/clib-package.o и clib/src/common/clib-package.o различаются
-Двоичные файлы clib1/test/package/package-dependency-new и clib/test/package/package-dependency-new различаются
-Двоичные файлы clib1/test/package/package-install и clib/test/package/package-install различаются
-diff -ruN clib1/test/package/package-install.c clib/test/package/package-install.c
---- clib1/test/package/package-install.c	2020-09-08 02:51:24.000000000 +0300
-+++ clib/test/package/package-install.c	2023-09-20 20:04:38.065740526 +0300
+Двоичные файлы clib/src/common/clib-package.o и clib_fix/src/common/clib-package.o различаются
+Двоичные файлы clib/test/package/package-dependency-new и clib_fix/test/package/package-dependency-new различаются
+Двоичные файлы clib/test/package/package-install и clib_fix/test/package/package-install различаются
+diff -ruN clib/test/package/package-install.c clib_fix/test/package/package-install.c
+--- clib/test/package/package-install.c	2020-09-08 02:51:24.000000000 +0300
++++ clib_fix/test/package/package-install.c	2023-09-20 20:04:38.065740526 +0300
 @@ -154,6 +154,6 @@
  
    curl_global_cleanup();
@@ -132,10 +132,10 @@ diff -ruN clib1/test/package/package-install.c clib/test/package/package-install
 +  cleanup_curl_share();
    return assert_failures();
  }
-Двоичные файлы clib1/test/package/package-install-dependencies и clib/test/package/package-install-dependencies различаются
-diff -ruN clib1/test/package/package-install-dependencies.c clib/test/package/package-install-dependencies.c
---- clib1/test/package/package-install-dependencies.c	2020-09-08 02:51:24.000000000 +0300
-+++ clib/test/package/package-install-dependencies.c	2023-09-21 02:43:16.158032462 +0300
+Двоичные файлы clib/test/package/package-install-dependencies и clib_fix/test/package/package-install-dependencies различаются
+diff -ruN clib/test/package/package-install-dependencies.c clib_fix/test/package/package-install-dependencies.c
+--- clib/test/package/package-install-dependencies.c	2020-09-08 02:51:24.000000000 +0300
++++ clib_fix/test/package/package-install-dependencies.c	2023-09-21 02:43:16.158032462 +0300
 @@ -97,6 +97,6 @@
  
    curl_global_cleanup();
@@ -144,10 +144,10 @@ diff -ruN clib1/test/package/package-install-dependencies.c clib/test/package/pa
 +  cleanup_curl_share();
    return assert_failures();
  }
-Двоичные файлы clib1/test/package/package-install-dev-dependencies и clib/test/package/package-install-dev-dependencies различаются
-diff -ruN clib1/test/package/package-install-dev-dependencies.c clib/test/package/package-install-dev-dependencies.c
---- clib1/test/package/package-install-dev-dependencies.c	2020-09-08 02:51:24.000000000 +0300
-+++ clib/test/package/package-install-dev-dependencies.c	2023-09-20 19:17:41.725790869 +0300
+Двоичные файлы clib/test/package/package-install-dev-dependencies и clib_fix/test/package/package-install-dev-dependencies различаются
+diff -ruN clib/test/package/package-install-dev-dependencies.c clib_fix/test/package/package-install-dev-dependencies.c
+--- clib/test/package/package-install-dev-dependencies.c	2020-09-08 02:51:24.000000000 +0300
++++ clib_fix/test/package/package-install-dev-dependencies.c	2023-09-20 19:17:41.725790869 +0300
 @@ -43,6 +43,6 @@
  
    curl_global_cleanup();
@@ -156,13 +156,13 @@ diff -ruN clib1/test/package/package-install-dev-dependencies.c clib/test/packag
 +  cleanup_curl_share();
    return assert_failures();
  }
-Двоичные файлы clib1/test/package/package-load-from-manifest и clib/test/package/package-load-from-manifest различаются
-Двоичные файлы clib1/test/package/package-load-manifest-file и clib/test/package/package-load-manifest-file различаются
-Двоичные файлы clib1/test/package/package-new и clib/test/package/package-new различаются
-Двоичные файлы clib1/test/package/package-new-from-slug и clib/test/package/package-new-from-slug различаются
-diff -ruN clib1/test/package/package-new-from-slug.c clib/test/package/package-new-from-slug.c
---- clib1/test/package/package-new-from-slug.c	2020-09-08 02:51:24.000000000 +0300
-+++ clib/test/package/package-new-from-slug.c	2023-09-20 19:12:34.897796354 +0300
+Двоичные файлы clib/test/package/package-load-from-manifest и clib_fix/test/package/package-load-from-manifest различаются
+Двоичные файлы clib/test/package/package-load-manifest-file и clib_fix/test/package/package-load-manifest-file различаются
+Двоичные файлы clib/test/package/package-new и clib_fix/test/package/package-new различаются
+Двоичные файлы clib/test/package/package-new-from-slug и clib_fix/test/package/package-new-from-slug различаются
+diff -ruN clib/test/package/package-new-from-slug.c clib_fix/test/package/package-new-from-slug.c
+--- clib/test/package/package-new-from-slug.c	2020-09-08 02:51:24.000000000 +0300
++++ clib_fix/test/package/package-new-from-slug.c	2023-09-20 19:12:34.897796354 +0300
 @@ -69,6 +69,6 @@
        clib_package_free(pkg);
      }
@@ -171,7 +171,7 @@ diff -ruN clib1/test/package/package-new-from-slug.c clib/test/package/package-n
 +  cleanup_curl_share();
    return assert_failures();
  }
-Двоичные файлы clib1/test/package/package-parse-author и clib/test/package/package-parse-author различаются
-Двоичные файлы clib1/test/package/package-parse-name и clib/test/package/package-parse-name различаются
-Двоичные файлы clib1/test/package/package-parse-version и clib/test/package/package-parse-version различаются
-Двоичные файлы clib1/test/package/package-url и clib/test/package/package-url различаются
+Двоичные файлы clib/test/package/package-parse-author и clib_fix/test/package/package-parse-author различаются
+Двоичные файлы clib/test/package/package-parse-name и clib_fix/test/package/package-parse-name различаются
+Двоичные файлы clib/test/package/package-parse-version и clib_fix/test/package/package-parse-version различаются
+Двоичные файлы clib/test/package/package-url и clib_fix/test/package/package-url различаются
