@@ -5,7 +5,7 @@
 ## Файл package-install 
 ## До:
 
-==14337== 
+==14337==  
 ==14337== HEAP SUMMARY:
 ==14337==     in use at exit: 2,077,967 bytes in 32,810 blocks
 ==14337==   total heap usage: 110,106 allocs, 77,296 frees, 35,734,793 bytes allocated
